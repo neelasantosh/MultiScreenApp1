@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FAC0F81C1ED0A00008AAAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FAC0F71C1ED0A00008AAAB /* main.m */; };
+		18FAC0FB1C1ED0A00008AAAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FAC0FA1C1ED0A00008AAAB /* AppDelegate.m */; };
+		18FAC0FE1C1ED0A00008AAAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FAC0FD1C1ED0A00008AAAB /* ViewController.m */; };
+		18FAC1011C1ED0A00008AAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FAC0FF1C1ED0A00008AAAB /* Main.storyboard */; };
+		18FAC1031C1ED0A00008AAAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FAC1021C1ED0A00008AAAB /* Images.xcassets */; };
+		18FAC1061C1ED0A00008AAAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FAC1041C1ED0A00008AAAB /* LaunchScreen.xib */; };
+		18FAC1121C1ED0A00008AAAB /* MultiScreenApp1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FAC1111C1ED0A00008AAAB /* MultiScreenApp1Tests.m */; };
+		18FAC11E1C1ED2B50008AAAB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FAC11C1C1ED2B50008AAAB /* SecondViewController.m */; };
+		18FAC11F1C1ED2B50008AAAB /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FAC11D1C1ED2B50008AAAB /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FAC10C1C1ED0A00008AAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FAC0EA1C1ED0A00008AAAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FAC0F11C1ED0A00008AAAB;
+			remoteInfo = MultiScreenApp1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FAC0F21C1ED0A00008AAAB /* MultiScreenApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiScreenApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FAC0F61C1ED0A00008AAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FAC0F71C1ED0A00008AAAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FAC0F91C1ED0A00008AAAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18FAC0FA1C1ED0A00008AAAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18FAC0FC1C1ED0A00008AAAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18FAC0FD1C1ED0A00008AAAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18FAC1001C1ED0A00008AAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FAC1021C1ED0A00008AAAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18FAC1051C1ED0A00008AAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18FAC10B1C1ED0A00008AAAB /* MultiScreenApp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiScreenApp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FAC1101C1ED0A00008AAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FAC1111C1ED0A00008AAAB /* MultiScreenApp1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiScreenApp1Tests.m; sourceTree = "<group>"; };
+		18FAC11B1C1ED2B50008AAAB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		18FAC11C1C1ED2B50008AAAB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		18FAC11D1C1ED2B50008AAAB /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FAC0EF1C1ED0A00008AAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FAC1081C1ED0A00008AAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FAC0E91C1ED0A00008AAAB = {
+			isa = PBXGroup;
+			children = (
+				18FAC0F41C1ED0A00008AAAB /* MultiScreenApp1 */,
+				18FAC10E1C1ED0A00008AAAB /* MultiScreenApp1Tests */,
+				18FAC0F31C1ED0A00008AAAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FAC0F31C1ED0A00008AAAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FAC0F21C1ED0A00008AAAB /* MultiScreenApp1.app */,
+				18FAC10B1C1ED0A00008AAAB /* MultiScreenApp1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FAC0F41C1ED0A00008AAAB /* MultiScreenApp1 */ = {
+			isa = PBXGroup;
+			children = (
+				18FAC0F91C1ED0A00008AAAB /* AppDelegate.h */,
+				18FAC0FA1C1ED0A00008AAAB /* AppDelegate.m */,
+				18FAC0FC1C1ED0A00008AAAB /* ViewController.h */,
+				18FAC0FD1C1ED0A00008AAAB /* ViewController.m */,
+				18FAC0FF1C1ED0A00008AAAB /* Main.storyboard */,
+				18FAC1021C1ED0A00008AAAB /* Images.xcassets */,
+				18FAC1041C1ED0A00008AAAB /* LaunchScreen.xib */,
+				18FAC0F51C1ED0A00008AAAB /* Supporting Files */,
+				18FAC11B1C1ED2B50008AAAB /* SecondViewController.h */,
+				18FAC11C1C1ED2B50008AAAB /* SecondViewController.m */,
+				18FAC11D1C1ED2B50008AAAB /* SecondViewController.xib */,
+			);
+			path = MultiScreenApp1;
+			sourceTree = "<group>";
+		};
+		18FAC0F51C1ED0A00008AAAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FAC0F61C1ED0A00008AAAB /* Info.plist */,
+				18FAC0F71C1ED0A00008AAAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18FAC10E1C1ED0A00008AAAB /* MultiScreenApp1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18FAC1111C1ED0A00008AAAB /* MultiScreenApp1Tests.m */,
+				18FAC10F1C1ED0A00008AAAB /* Supporting Files */,
+			);
+			path = MultiScreenApp1Tests;
+			sourceTree = "<group>";
+		};
+		18FAC10F1C1ED0A00008AAAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FAC1101C1ED0A00008AAAB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FAC0F11C1ED0A00008AAAB /* MultiScreenApp1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FAC1151C1ED0A00008AAAB /* Build configuration list for PBXNativeTarget "MultiScreenApp1" */;
+			buildPhases = (
+				18FAC0EE1C1ED0A00008AAAB /* Sources */,
+				18FAC0EF1C1ED0A00008AAAB /* Frameworks */,
+				18FAC0F01C1ED0A00008AAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiScreenApp1;
+			productName = MultiScreenApp1;
+			productReference = 18FAC0F21C1ED0A00008AAAB /* MultiScreenApp1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FAC10A1C1ED0A00008AAAB /* MultiScreenApp1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FAC1181C1ED0A00008AAAB /* Build configuration list for PBXNativeTarget "MultiScreenApp1Tests" */;
+			buildPhases = (
+				18FAC1071C1ED0A00008AAAB /* Sources */,
+				18FAC1081C1ED0A00008AAAB /* Frameworks */,
+				18FAC1091C1ED0A00008AAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FAC10D1C1ED0A00008AAAB /* PBXTargetDependency */,
+			);
+			name = MultiScreenApp1Tests;
+			productName = MultiScreenApp1Tests;
+			productReference = 18FAC10B1C1ED0A00008AAAB /* MultiScreenApp1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FAC0EA1C1ED0A00008AAAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = CDAC;
+				TargetAttributes = {
+					18FAC0F11C1ED0A00008AAAB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					18FAC10A1C1ED0A00008AAAB = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 18FAC0F11C1ED0A00008AAAB;
+					};
+				};
+			};
+			buildConfigurationList = 18FAC0ED1C1ED0A00008AAAB /* Build configuration list for PBXProject "MultiScreenApp1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FAC0E91C1ED0A00008AAAB;
+			productRefGroup = 18FAC0F31C1ED0A00008AAAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FAC0F11C1ED0A00008AAAB /* MultiScreenApp1 */,
+				18FAC10A1C1ED0A00008AAAB /* MultiScreenApp1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FAC0F01C1ED0A00008AAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FAC11F1C1ED2B50008AAAB /* SecondViewController.xib in Resources */,
+				18FAC1011C1ED0A00008AAAB /* Main.storyboard in Resources */,
+				18FAC1061C1ED0A00008AAAB /* LaunchScreen.xib in Resources */,
+				18FAC1031C1ED0A00008AAAB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FAC1091C1ED0A00008AAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FAC0EE1C1ED0A00008AAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FAC11E1C1ED2B50008AAAB /* SecondViewController.m in Sources */,
+				18FAC0FE1C1ED0A00008AAAB /* ViewController.m in Sources */,
+				18FAC0FB1C1ED0A00008AAAB /* AppDelegate.m in Sources */,
+				18FAC0F81C1ED0A00008AAAB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FAC1071C1ED0A00008AAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FAC1121C1ED0A00008AAAB /* MultiScreenApp1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FAC10D1C1ED0A00008AAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FAC0F11C1ED0A00008AAAB /* MultiScreenApp1 */;
+			targetProxy = 18FAC10C1C1ED0A00008AAAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FAC0FF1C1ED0A00008AAAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FAC1001C1ED0A00008AAAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FAC1041C1ED0A00008AAAB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FAC1051C1ED0A00008AAAB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FAC1131C1ED0A00008AAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18FAC1141C1ED0A00008AAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FAC1161C1ED0A00008AAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiScreenApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18FAC1171C1ED0A00008AAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiScreenApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18FAC1191C1ED0A00008AAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiScreenApp1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiScreenApp1.app/MultiScreenApp1";
+			};
+			name = Debug;
+		};
+		18FAC11A1C1ED0A00008AAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiScreenApp1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiScreenApp1.app/MultiScreenApp1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FAC0ED1C1ED0A00008AAAB /* Build configuration list for PBXProject "MultiScreenApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FAC1131C1ED0A00008AAAB /* Debug */,
+				18FAC1141C1ED0A00008AAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FAC1151C1ED0A00008AAAB /* Build configuration list for PBXNativeTarget "MultiScreenApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FAC1161C1ED0A00008AAAB /* Debug */,
+				18FAC1171C1ED0A00008AAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FAC1181C1ED0A00008AAAB /* Build configuration list for PBXNativeTarget "MultiScreenApp1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FAC1191C1ED0A00008AAAB /* Debug */,
+				18FAC11A1C1ED0A00008AAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FAC0EA1C1ED0A00008AAAB /* Project object */;
+}
